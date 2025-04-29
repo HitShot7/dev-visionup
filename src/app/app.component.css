@@ -1,0 +1,110 @@
+:host {
+    --bright-blue: oklch(51.01% 0.274 263.83);
+    --electric-violet: oklch(53.18% 0.28 296.97);
+    --french-violet: oklch(47.66% 0.246 305.88);
+    --vivid-pink: oklch(69.02% 0.277 332.77);
+    --hot-red: oklch(61.42% 0.238 15.34);
+    --orange-red: oklch(63.32% 0.24 31.68);
+  
+    --gray-900: oklch(19.37% 0.006 300.98);
+    --gray-700: oklch(36.98% 0.014 302.71);
+    --gray-400: oklch(70.9% 0.015 304.04);
+  
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+  
+  body, html {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: #333;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 10px 30px;
+  }
+  
+  .logo img {
+    height: auto;
+    width: 300px;
+  }
+  
+  .header-links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .link {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .login-button {
+    padding: 5px 15px;
+    border: 1px solid #007bff;
+    border-radius: 20px;
+    background: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .login-button:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Main content */
+  .main-content {
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  .welcome-title {
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .main-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .main-title .highlight {
+    color: #007bff;
+    font-size: 80px;
+  }
+  
+  .description {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  /* Footer */
+  .footer {
+    margin-top: 50px;
+    background-color: #f1f1f1;
+    text-align: right;
+    padding: 10px;
+    font-size: 0.9rem;
+    color: #555;
+  }

@@ -11,6 +11,20 @@
 npm-debug.log
 yarn-error.log
 
+# Ignorar node_modules
+node_modules/
+
+# Ignorar archivos de construcción
+dist/
+
+# Ignorar entorno
+.env
+
+# Ignorar archivos del IDE (opcional)
+.vscode/
+.idea/
+
+
 # IDEs and editors
 .idea/
 .project
