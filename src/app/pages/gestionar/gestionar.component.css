@@ -1,0 +1,100 @@
+/* Encabezado */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 9px solid #009fe3;
+    background-color: #f4f4f4;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .avatar {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .welcome .title {
+    font-weight: bold;
+    color: #009fe3;
+    font-size: 1.2rem;
+  }
+  
+  .name {
+    font-size: 0.9rem;
+  }
+  
+  /* Acciones */
+  .actions button {
+    margin-left: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  /* Título centrado */
+  .title-center {
+    text-align: center;
+    margin: 2rem 0 5rem 0;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #333;
+  }
+  
+  /* Botones centrados */
+  .grid-buttons.center-four {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 0 4rem 5rem 2rem;
+  }
+  
+  /* Botón individual */
+  .btn {
+    width: 200px;
+    height: 120px;
+    background-color: #d3d3d3;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  .btn:hover {
+    background-color: #bdbdbd;
+  }
+  
+  /* Emoji más grande */
+  .emoji {
+    font-size: 2rem;
+    margin-bottom: 5px;
+  }
+  
+  /* Pie de página */
+  .footer {
+    text-align: right;
+    padding: 1rem 2rem;
+    font-size: 0.9rem;
+    color: #555;
+    border-top: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
+  

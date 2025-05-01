@@ -5,7 +5,8 @@
   </div>
   <div class="header-links">
     <span class="link">Sedes</span>
-    <a routerLink="/login" class="login-button">Inicio Sesión</a>
+    <a [routerLink]="['/login']" class="login-button">Iniciar sesión</a>
+
   </div>
 </header>
 <main class="main-content">
@@ -23,7 +24,7 @@
 <footer class="footer">
   Soporte
 </footer>
-
+<router-outlet></router-outlet>
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * * -->
@@ -31,6 +32,3 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
-
-<router-outlet />
